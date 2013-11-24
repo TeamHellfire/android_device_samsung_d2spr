@@ -36,3 +36,6 @@ TARGET_BOARD_INFO_FILE ?= device/samsung/d2spr/board-info.txt
 
 # Enable dalvik startup with a low memory footprint
 TARGET_ARCH_LOWMEM := true
+
+# Set meta data to use older recoverys
+USE_SET_METADATA := false
