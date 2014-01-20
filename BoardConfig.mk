@@ -29,9 +29,6 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2spr,d2spi,d2tfnspr
 
-# Kernel
-TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
-
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2spr/board-info.txt
 
 # Enable dalvik startup with a low memory footprint
